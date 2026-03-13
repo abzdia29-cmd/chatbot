@@ -1,19 +1,18 @@
-# 💬 Chatbot template
+# 🛡️ المنصة الذكية لمفتشي حماية المستهلك - دبي
 
-A simple Streamlit app that shows how to build a chatbot using OpenAI's GPT-3.5.
+تطبيق تفاعلي مخصص لمفتشي دائرة الاقتصاد والسياحة في دبي لتعزيز الكفاءة الميدانية والرقابة التجارية.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chatbot-template.streamlit.app/)
+## 🚀 المميزات الرئيسية
+* **دليل ضباط الامتثال:** بحث سريع في قاعدة بيانات الشركات الكبرى (Contacts.xlsb).
+* **توثيق المخالفات:** نموذج رقمي لتسجيل المخالفات الميدانية بشكل فوري.
+* **الهوية المؤسسية:** واجهة مستخدم مصممة بألوان حكومة دبي الرسمية ودعم كامل للغة العربية.
+* **المساعد القانوني:** إرشادات سريعة مبنية على سياسة المتحدث الرسمي للدائرة.
 
-### How to run it on your own machine
+## 🛠️ المتطلبات التقنية
+لتشغيل التطبيق، تأكد من تثبيت المكتبات التالية:
+`pip install -r requirements.txt`
 
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## 📋 كيفية التشغيل
+1. تأكد من وجود ملف `Contacts.xlsb` في المجلد الرئيسي.
+2. قم بتشغيل الأمر التالي:
+`streamlit run streamlit_app.py`
